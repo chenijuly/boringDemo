@@ -1,0 +1,108 @@
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid #26a2ff !important;
+  color: #26a2ff !important;
+}
+.for-fixed-tab {
+  padding-top: 1rem;
+}
+.mint-popup {
+  width: 100%;
+}
+.van-cell__title {
+  width: 105px;
+}
+.select .van-cell__value {
+  text-align: left;
+}
+.select .van-cell__title {
+  width: 105px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+}
+.picker-toolbar {
+  text-align: right;
+}
+.theme--buttom-style {
+  margin-top: 20px;
+}
+.theme--float-style {
+  margin-right: 15px;
+  float: right;
+}
+.single-conmon {
+  /* display: flex; */
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+  overflow: hidden;
+  line-height: 24px;
+  background-color: #fff;
+}
+.single-title{
+  color: #666666;
+  font-size: 12px;
+}
+.single-upload .title{
+  color: #666666;
+  font-size: 12px;
+}
+.single-class-file .box, .single-upload .box{
+  position: relative;
+  text-align: center;
+  margin: 5px 0;
+}
+.van-uploader__upload {
+  width: 100px;
+  height: 100px;
+}
+.single-upload .preview{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  height: 100px;
+  background: red;
+}
+.single-class-file .preview img, .single-upload .preview img{
+  width: 100%;
+  height: 100%;
+}
+.single-class-file .preview {
+  display: inline-block;
+  width: 120px;
+  height: 100px;
+}
+.single-textarea {
+  margin-bottom: 10px;
+}
+.single-textarea textarea {
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+/* 主题色 按框架原class修改 */
+.van-button--danger {
+  color: #fff;
+  background-color: #4828E7;
+  border: 1px solid #4828E7;
+}
+.van-button--plain.van-button--danger {
+  color: #4828E7;
+  background-color: #fff;
+  border: none;
+}
+.van-tabs__line {
+  background-color: #F92091;
+}
+
+
+
+/* build */
+.single-canvas {
+  width: 375px;
+  height: 812px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px 2px #cccccc;
+  /* margin: 0 auto; */
+}
