@@ -1,0 +1,121 @@
+.van-field__control:disabled {
+  color: #333;
+}
+.contract-us{
+  color: #FFFFFF;
+  width:100%;
+  height: 60%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  background-color: #B81C22;
+}
+.online-apply{
+  background: #B81C22;
+  border-radius: 4px;
+  color: #FFFFFF;
+  position: absolute;
+}
+.mobile-online-apply{
+  font-size: 18px;
+  height: 44px;
+  line-height: 44px;
+  width: 240px;
+  bottom: 30px;
+  margin-left: 50%;
+  left: -120px;
+}
+.pc-online-apply{
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  width: 300px;
+  bottom: 70px;
+  margin-left: 50%;
+  left: -150px;
+}
+.submit-loan{      
+  background: #B81C22;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  width: 300px;
+}
+.el-dialog__header {
+  padding: 0px;
+  background: #B81C22;
+}
+.el-dialog__title {
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+  color:#fff;
+}
+.el-dialog__headerbtn .el-dialog__close, .el-dialog__headerbtn .el-dialog__close:hover{
+  color: #fff;
+}
+.el-dialog__body{
+  padding: 0px 20px;
+}
+.el-select {
+  width: 90%;
+}
+.notice-words{
+  display: inline;
+  font-size: 12px;
+  color: #B81C22;
+}
+.form-label{
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 20px 0 5px;
+}
+.van-nav-bar__title {
+  color: #FFFFFF;
+}
+.van-nav-bar .van-icon{
+  color: #FFFFFF;
+}
+.van-field__label span{
+  font-size: 16px;
+}
+.van-nav-bar{
+  background-color: #B81C22;
+}
+input::-webkit-input-placeholder {
+  color: #B81C22;
+}
+input::-moz-placeholder{
+    color:red;
+}
+input::-moz-input-placeholder {
+  color: #B81C22;
+}
+input::-ms-input-placeholder {
+  color: #B81C22;
+}
+.van-button::before {
+  background-color: #eae7e7;
+}
+.sub-btn {
+  background: #fff;
+  color: #B81C22;
+  font-size: 16px;
+  border:none;
+}
+.mobile-notice-words{
+  text-align: left;
+  color: #B81C22;
+  font-size: 12px;
+  margin-left:16px;
+  padding-bottom: 10px;
+}
+.van-picker__cancel, .van-picker__confirm{
+  color: #B81C22;
+}
+.van-picker-column__item--selected{
+  color: #B81C22;
+}

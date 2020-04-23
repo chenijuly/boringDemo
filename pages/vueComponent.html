@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../cdn/vue/2.6.10/vue.js"></script>
+  <script src="../assets/js/component.js"></script>
+  
+</head>
+<body>
+  <div id="components-demo">
+    <div :style="{ fontSize: postFontSize + 'em' }">
+      <my-label v-on:enlarge-text="large"><div>oo</div></my-label>
+    </div>
+  </div>
+</body>
+<script>
+  new Vue({
+    el: '#components-demo',
+    data(){
+      return {
+        postFontSize: 14
+      }
+    },
+    methods:{
+      large(){
+        this.postFontSize += 0.1
+      }
+    }
+  })
+</script>
+</html>

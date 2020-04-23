@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../cdn/vue/2.6.10/vue.js"></script>
+  <script src="../assets/js/component.js"></script>
+  <script src="../cdn/echarts/4.5.0/echarts.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <div id="chartDemo" style="height:500px">
+    <demo-chart ref="consoleChart" :option="option"></demo-chart>
+  </div>
+</body>
+<script>
+  new Vue({
+    el: '#chartDemo',
+    data(){
+      return {
+        option:{},
+        xData: [
+          "column1",
+          "column2",
+          "column3",
+          "column4",
+          "column5",
+          "column6",
+          "column7",
+          "column8",
+          "column6",
+          "column7",
+          "column8"
+        ]
+      }
+    },
+    computes:{      
+      currentDate() {
+        const myDate = new Date();
+        const mon = myDate.getMonth() + 1; //获取当前月
+        return myDate.getFullYear() + "-" + mon + "-" + myDate.getDate();
+      }
+    },
+    mounted(){
+      this.init()
+    },
+    methods:{
+      getChartsData(){
+        let _option1 = {
+        line: {
+          first: [13,3,1,1,2,],
+          second: [2,5,6,7,8,10]
+        },
+        bar: {
+          first: [3,3,3,3,0,2,1],
+          second: [4,5,4,3,2,3,10]
+        },
+        xData: this.xData,
+        date: this.currentDate,
+        nameList: [
+          "line1",
+          "line2",
+          "line3",
+          "line4"
+        ],
+        yAxisName: 'count'
+      }
+      this.option = Object.assign({}, _option1)
+      },
+      init() {
+        this.getChartsData()
+      }
+    }
+  })
+</script>
+<style>
+  .chart-container{
+    height:500px;
+  }
+</style>
+</html>
