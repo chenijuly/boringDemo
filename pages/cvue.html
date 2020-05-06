@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="app">
+    <p>{{name}}</p>
+    <p c-text="name"></p>
+  </div>
+  <script src="../assets/js/compile.js"></script>
+  <script src="../assets/js/cvue.js"></script>
+  <script>
+    const app = new CVue({
+      el: "#app",
+      data:{ foo: "foo", bar:{mua: "mua"}}
+    })
+    // app.foo = 'aaa'
+    // app.bar.mua = 'aaa'
+    // console.log(app)
+  </script>
+  
+</body>
+</html>
